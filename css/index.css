@@ -49,12 +49,12 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid grey !important;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid gray;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,13 +67,46 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 100%;
+    margin: 4%;
+}
 
+}
+nav {
+    width: 75%;
+    margin: 2%;
+    display: flex;
+    justify-content: space-around; 
+    align-content: space-around;
+}
 
+section {
+    
+    
+}
+
+.logo {
+    width: 20%;
+}
+
+.highway {
+    display: flex;
+    justify-content: center;
+}
+.cityscape {
+    display: flex;
+    justify-content: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
-}
+} 
 
+.container .about-page {
+    width: 800px;
+    margin: 0 auto; 
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,12 +115,23 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+.strategy {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -113,6 +157,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ 
+.middle-content .boxes .box {
+    background: red;
 }
 
 .bottom-content {
@@ -147,3 +195,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
