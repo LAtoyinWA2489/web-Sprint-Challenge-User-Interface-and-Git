@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey !important;
+    /* border: 1px solid grey !important; */
 }
 
 html, body {
@@ -81,8 +81,11 @@ nav {
     align-content: space-around;
 }
 
-section {
-    
+button {
+    padding: 2% 6%;
+    margin: 3% 0 4%;
+    background-color: white;
+    border-radius: 7px;
     
 }
 
@@ -105,7 +108,10 @@ section {
 
 .container .about-page {
     width: 800px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap; 
 }
 .top-content {
     display: flex;
@@ -115,12 +121,19 @@ section {
     border-bottom: 1px dashed black;
 }
 
-.about {
+.intro {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
+}
+
+.about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 .top-content .text-container {
     width: 48%;
@@ -128,6 +141,10 @@ section {
     padding-bottom: 20px;  
 }
 
+.intro .overview {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;  
+}
 .strategy {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -137,6 +154,16 @@ section {
     border-bottom: 1px dashed black;
 }
 
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.details .about {
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -177,6 +204,14 @@ section {
     padding-right: 0;
 }
 
+.invite {
+    width: 100%;
+    margin: 6%;
+    /* padding: 5%; */
+    display: flex;
+    justify-content: flex-start;
+
+}
 footer {
     width: 100%;
     background: black;
