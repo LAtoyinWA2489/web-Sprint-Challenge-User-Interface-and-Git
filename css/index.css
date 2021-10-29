@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid grey !important; */
+    border: 1px solid grey !important;
 }
 
 html, body {
@@ -68,17 +68,20 @@ p {
 }
 
 header {
-    width: 100%;
-    margin: 4%;
+    width: 800px;
+    margin: 0 24.535%;
+    display: flex;
+    align-items: center;
 }
+
 
 }
 nav {
-    width: 75%;
-    margin: 2%;
     display: flex;
-    justify-content: space-around; 
-    align-content: space-around;
+}
+
+nav a {
+
 }
 
 button {
@@ -142,7 +145,7 @@ button {
 }
 
 .intro .overview {
-    padding-bottom: 20px;
+    padding-bottom: 1%;
     border-bottom: 1px dashed black;  
 }
 .strategy {
@@ -162,7 +165,12 @@ button {
 
 .details .about {
     margin: 20px 0;
+    padding: 5px 0;
     border-bottom: 1px dashed black;
+}
+
+.details .about h2, p {
+    margin: 4% 0;
 }
 .middle-content h2 {
     padding: 0 2%;
@@ -206,10 +214,8 @@ button {
 
 .invite {
     width: 100%;
-    margin: 6%;
-    /* padding: 5%; */
-    display: flex;
-    justify-content: flex-start;
+    margin: 6% 6% 8% 0;
+    
 
 }
 footer {
